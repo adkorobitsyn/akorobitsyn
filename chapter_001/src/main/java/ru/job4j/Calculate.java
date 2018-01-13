@@ -1,21 +1,28 @@
 package ru.job4j;
 
 /**
-*JavaDoc для класса Calculate
-*
-*@author Alexey Korobitsyn (korobitsyn-ad@ya.ru)
-*/
+ * Calculate.
+ *
+ * @author Alexey Korobitsyn (korobitsyn-ad@ya.ru)
+ * @version $Id$
+ * @since 0.1
+ */
+public class Calculate {
+    /**
+     * Main.
+     * @param args - args.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
 
-public class Calculate{
-	
-	/** Метод main 
-	*выводит на экран надпись 
-	*"Hello World!"
-	*/
-	
-	public 	static void main(String[] args){
-		System.out.println("Hello world!");
-	}
-	
+    /**
+     * Method echo.
+     * @param name Your name.
+     * @return Echo plus your name.
+     */
+    public String echo(String name) {
+        return "Echo, echo, echo : " + name;
+    }
 }
 		
