@@ -10,7 +10,7 @@ public class DummyBot {
     /**
      * Отвечает на вопросы
      * @param question Вопрос от клиента.
-     * @return Ответ
+     * @return Возвращает ответ.
      */
     public String answer(String question) {
         String rsl = "Это ставит меня в тупик. Спросите другой вопрос.";
