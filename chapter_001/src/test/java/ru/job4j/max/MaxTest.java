@@ -16,4 +16,11 @@ public class MaxTest {
         int result = maxim.max(1, 2);
         assertThat(result, is(2));
     }
+
+    @Test
+    public void whenFirstLessThird() {
+        Max maximum = new Max();
+        int result = maximum.max(1,7,11);
+        assertThat(result, is(11));
+    }
 }
