@@ -20,7 +20,7 @@ public class MaxTest {
     @Test
     public void whenFirstLessThird() {
         Max maximum = new Max();
-        int result = maximum.max(1,7,11);
+        int result = maximum.max(1, 7, 11);
         assertThat(result, is(11));
     }
 }
