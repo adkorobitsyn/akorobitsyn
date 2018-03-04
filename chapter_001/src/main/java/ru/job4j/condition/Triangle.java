@@ -55,7 +55,6 @@ public class Triangle {
      * @return Возврат значения возможно или нет построить треугольник.
      */
     private boolean exist(double ab, double ac, double bc) {
-        if (ab < ac + bc | ac < ab + bc | bc < ab + ac) return true;
-        else return false;
+        return ab < ac + bc & ac < ab + bc & bc < ab + ac;
     }
 }
