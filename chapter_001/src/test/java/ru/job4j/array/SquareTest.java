@@ -12,6 +12,6 @@ public class SquareTest {
         for (int x : result) {
             System.out.println(x); // Вывод на печать для визуальной проверки. (знаю что не стоит так делать, но это первый мой тест для массивов)
         }
-        assertThat(result[4], is(25));
+        assertThat(result[4], is(16));
     }
 }
